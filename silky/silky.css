@@ -1,0 +1,154 @@
+/*============
+BASIC STYLE
+============*/
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	font-size: 13px;
+	color: #7a7a7a;
+	line-height: 22px;
+}
+
+.primary-button a {
+	text-decoration: none;
+	padding: 10px 18px;
+	display: inline-block;
+	border-radius: 24px;
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+
+/* ======================
+----- FIRST SECTION------
+=======================*/
+
+.first-section {
+	background-image: url(first-section-bg.jpg);
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding: 20% 0px 20% 0px;
+}
+
+.first-section .text-content {
+	text-align: right;
+	color: #fff;
+	background-color: black;
+}
+
+.first-section .text-content h2 {
+	font-size: 44px;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 1px;
+}
+
+.first-section .text-content .line-dec {
+	width: 60px;
+	height: 3px;
+	background-color: #fff;
+	margin: 25px 0px 25px auto;
+}
+
+.first-section .text-content span {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+
+/* ======================
+---- SECOND SECTION------
+=======================*/
+
+.second-section {
+	padding: 100px 0px;
+}
+
+.second-section .service-item {
+	text-align: center;
+}
+
+.second-section .service-item .icon img {
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.second-section h4 {
+	font-size: 16px;
+	color: black;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+
+.btn {
+    background-color: white;
+    border: 2px solid black;
+    width: 210px;
+    height: 40px;
+    color: black;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.btn:hover {
+   color: black;
+}
+
+.left-image {
+	height: 275px;
+	position: absolute;
+	left: 0%;
+}
+
+/* ======================
+-- RESPONSIVE SECTION ---
+=======================*/
+
+@media only screen and (max-width: 1100px){
+
+	.first-section {
+		padding: 150px 0px 200px 0px;
+	}
+
+	.first-section .text-content {
+		text-align: center;
+	}
+
+	.first-section .text-content .line-dec {
+		margin: 25px auto;
+	}
+
+	.second-section {
+		padding: 50px 0px 0px 0px;
+	}
+
+	.second-section .service-item {
+		margin-bottom: 50px;
+	}
+
+	.left-image {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+
+	.left-image {
+		left: -50%;
+	}
+}
+
